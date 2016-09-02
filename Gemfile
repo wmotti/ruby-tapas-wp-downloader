@@ -1,6 +1,9 @@
 # frozen_string_literal: true
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 gem 'mechanize'
 gem 'dotenv'
-gem 'pry', group: :development
+group :development do
+  gem 'rubocop'
+  gem 'pry'
+end
