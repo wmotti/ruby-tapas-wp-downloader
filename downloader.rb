@@ -4,7 +4,7 @@ Dotenv.load
 
 class Downloader
   DOMAIN = 'www.rubytapas.com'.freeze
-  LOGIN_PAGE_URL = "https://#{DOMAIN}/login/".freze
+  LOGIN_PAGE_URL = "https://#{DOMAIN}/login/".freeze
   EPISODE_LIST_URL = "https://#{DOMAIN}/episode-list/".freeze
 
   def initialize(agent)
